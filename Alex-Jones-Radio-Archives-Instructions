@@ -1,7 +1,7 @@
 1. First go to his Radio Talk SHow --->     https://archives.infowars.com/listen-to-the-radio-show-archive/
 2. Then Download the RSS Playlist here ---> http://rss.infowars.com/playlist.xspf
 3. Open the Rss playlist in a text editor of choice and Find and Replace everything before the ---> Http://
-     <track><location>http://rss.infowars.com./20241002_Wed_WarRoom.mp3</location><title>20241002_Wed_WarRoom.mp3</title></track>
+     EXAMPLE   --->    <track><location>http://rss.infowars.com./20241002_Wed_WarRoom.mp3</location><title>20241002_Wed_WarRoom.mp3</title></track>
 4. Then Use the Remove.py on the text file to remove everything after the *.mp3 
 5. Then use the Quotes.py to add Quotes the the ends of everyline. 
 6. the Use the Comma.py after everyline to put commas after every line. 
